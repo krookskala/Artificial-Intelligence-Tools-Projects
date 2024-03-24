@@ -15,6 +15,7 @@ This project implements the k-Nearest Neighbors (kNN) algorithm for classificati
 - [Contributing](#contributing)
 - [Links](#links)
 - [License](#license)
+
 ## About the Project
 
 The kNN algorithm is a simple yet effective method for classification tasks, where the class of a given observation is determined by the majority class among its k nearest neighbors in the feature space. This project provides a Python implementation of the kNN algorithm, allowing users to load data from CSV files, specify the value of k, and perform classification tasks.
@@ -46,6 +47,7 @@ To get started with the kNN project, follow these steps:
 
 - **Install Dependencies (if any):**
     - If additional dependencies are required, install them using pip or conda. For example:
+      
     ```sh
     pip install numpy
 
@@ -56,30 +58,26 @@ To get started with the kNN project, follow these steps:
 
 - **Run the Script:**
    - Execute the Python script knn.py to start the program.
+     
     ```sh
     python knn.py
 
     ```
 
     
-
-
 ## Usage
 1. **Input Data:**
-- Provide the path to the training file when prompted.
-- Specify the number of nearest neighbors (k) to be used for classification
+   - Provide the path to the training file when prompted.
+   - Specify the number of nearest neighbors (k) to be used for classification
 
 2. **Classification Options:**
-- **Classification of Test Set:** Provide the path to the test file for classification and view accuracy metrics.
-- **Classification of Single Observation:** Enter a single observation through the console for classification.
-- **Change k:** Adjust the value of k for dynamic classification.
-- **Exit:** Terminate the program.
+   - **Classification of Test Set:** Provide the path to the test file for classification and view accuracy metrics.
+   - **Classification of Single Observation:** Enter a single observation through the console for classification.
+   - **Change k:** Adjust the value of k for dynamic classification.
+   - **Exit:** Terminate the program.
 
 3. **View Results:**
-- Analyze the classification results and accuracy metrics provided after each classification task.
-
-
-
+   - Analyze the classification results and accuracy metrics provided after each classification task.
 
 
 ## Contributing
